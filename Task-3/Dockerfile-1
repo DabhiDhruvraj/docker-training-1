@@ -1,0 +1,4 @@
+FROM ubuntu
+LABEL maintainer="Ankit <ankit@example.com>"
+
+RUN apt-get update && apt-get install -y iputils-ping
